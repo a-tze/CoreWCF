@@ -7,13 +7,11 @@
     <Description>CoreWCF is a port of the service side of Windows Communication Foundation (WCF) to .NET Core. The goal of this project is to enable existing WCF services to move to .NET Core.</Description>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageTags>WCF .net core, CoreWCF</PackageTags>
-    <PackageProjectUrl>https://github.com/CoreWCF/CoreWCF</PackageProjectUrl>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <UseFullSemVerForNuGet>true</UseFullSemVerForNuGet>
-    <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <EmbedUntrackedSources>true</EmbedUntrackedSources>
-    <IncludeSymbols>true</IncludeSymbols>
+    <PublishRepositoryUrl>false</PublishRepositoryUrl>
+    <EmbedUntrackedSources>false</EmbedUntrackedSources>
+    <IncludeSymbols>false</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
   <!-- Enable deterministic builds during CI build. See https://github.com/clairernovotny/DeterministicBuilds for more info-->
