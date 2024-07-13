@@ -167,7 +167,7 @@ namespace CoreWCF.Description
                 ?? description?.Endpoints?.FirstOrDefault(endpoint =>
                        endpoint?.Address?.Uri != null
                        && endpoint.Address.Uri.Scheme == uriScheme)
-                   ?.Address.Uri
+                   ?.Address?.Uri
                 ?? new Uri(string.Empty, UriKind.Relative);
 
         private static EndpointDispatcher GetListenerByID(SynchronizedCollection<ChannelDispatcherBase> channelDispatchers, string id)
